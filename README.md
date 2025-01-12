@@ -1,73 +1,63 @@
-# Mecânica Estatística Computacional - Scripts
+# ⚛️ Mecânica Estatística Computacional - Scripts
 
-Este repositório contém os scripts utilizados em simulações de **Mecânica Estatística Computacional**. Os códigos foram desenvolvidos para diversos métodos e modelos usados em simulação computacional, como Monte Carlo, Dinâmica Molecular, e outros algoritmos relacionados.
+Este repositório reúne scripts e notebooks desenvolvidos para estudar conceitos de **Mecânica Estatística Computacional**. Por meio de simulações e algoritmos como Monte Carlo e Dinâmica Molecular, estes códigos permitem explorar fenômenos físicos de maneira computacional e didática.
 
-## Estrutura do Repositório
+---
 
-Abaixo está a lista de scripts incluídos neste repositório, com uma breve descrição do que cada um faz:
+## 🌌 Estrutura do Repositório
 
+### 📂 **Scripts e suas Funcionalidades**
 1. **Lançamento de moedas.ipynb**  
-   Simulação de lançamento de moedas, exemplo básico de Monte Carlo.
-
+   - Simulação de lançamentos de moedas, um exemplo básico de Monte Carlo.
+   
 2. **Histograma moedas.ipynb**  
-   Geração de histogramas a partir dos resultados do lançamento de moedas.
+   - Geração de histogramas para visualização dos resultados dos lançamentos.
 
 3. **Caminhante aleatório.ipynb**  
-   Implementação do algoritmo de caminhante aleatório.
+   - Implementação de trajetórias aleatórias, explorando conceitos de difusão.
 
 4. **Modelo de Ehrenfest.ipynb**  
-   Simulação do modelo de Ehrenfest para o estudo de sistemas térmicos.
+   - Simulação do modelo de Ehrenfest, ilustrando processos de equilíbrio térmico.
 
 5. **Distribuição gaussiana e exponencial.ipynb**  
-   Cálculo e visualização de distribuições gaussiana e exponencial.
+   - Cálculo e visualização de distribuições estatísticas.
 
 6. **Cálculo médias por spin.ipynb**  
-   Cálculo de médias de spins em modelos de Ising ou sistemas similares.
+   - Análise de médias de spins em sistemas como o modelo de Ising.
 
 7. **Implementação do algoritmo de Metropolis.ipynb**  
-   Implementação do algoritmo de Metropolis para simulações de Monte Carlo.
+   - Simulação computacional utilizando o algoritmo de Metropolis.
 
 8. **Comparação Monte Carlo e Função partição.ipynb**  
-   Comparação de resultados obtidos por Monte Carlo com a função partição teórica.
+   - Comparação entre resultados de simulações e previsões teóricas.
 
 9. **Cumulante de Binder para diferentes tamanhos.ipynb**  
-   Cálculo do cumulante de Binder para estimativas de transição de fase.
+   - Estimativa de transições de fase por meio do cálculo do cumulante de Binder.
 
-10. **Cálculo Inverso da densidade de perímetro.ipynb**  
-    Método numérico para o cálculo da densidade de perímetro em sistemas físicos.
+10. **Integração da 2ª lei de Newton para o oscilador harmônico.ipynb**  
+    - Simulação numérica do movimento de osciladores harmônicos.
 
-11. **Integração da 2a lei de Newton para o oscilador harmônico.ipynb**  
-    Implementação de integração numérica da 2a lei de Newton para simulação de osciladores harmônicos.
+11. **Simulação de ensemble NVE.ipynb**  
+    - Simulação de sistemas microcanônicos (NVE) em Física Estatística.
 
-12. **Simulação de ensemble NVE.ipynb**  
-    Simulação de um sistema em um ensemble microcanônico (NVE).
+12. **Percolação.ipynb**  
+    - Estudo do modelo de percolação em redes.
 
-13. **Percolação.ipynb**  
-    Estudo do modelo de percolação em redes.
+---
 
-## Como Usar
+## 🚀 Como Usar
 
-1. **Requisitos**
-   - Python 3.x
-   - Jupyter Notebook (para rodar os arquivos `.ipynb`)
-   - Bibliotecas necessárias: `numpy`, `matplotlib`, `scipy`, `pandas`, `seaborn`
+### **Requisitos**
+- Python 3.x
+- Jupyter Notebook
+- Instale as bibliotecas necessárias:
+  
+  ```bash
+  
+  pip install numpy matplotlib scipy pandas seaborn
 
-2. **Execução**
-   - Clone este repositório para sua máquina local:
-     ```bash
-     git clone https://github.com/seu-usuario/mecanica-estatistica-computacional.git
-     ```
-   - Navegue até o diretório do repositório e abra os arquivos `.ipynb` com o Jupyter Notebook:
-     ```bash
-     jupyter notebook
-     ```
-   - Execute as células dos notebooks para rodar as simulações e ver os resultados.
 
-## Contribuindo
-
-Se você tem sugestões ou melhorias, sinta-se à vontade para criar um pull request!
-
-## Licença
+## 📄 Licença
 
 Este projeto está licenciado sob a **Creative Commons Attribution-NonCommercial 4.0 International License**. Não é permitido usar o código para fins comerciais.
 
