@@ -50,7 +50,7 @@ Este repositório reúne scripts e notebooks desenvolvidos para estudar conceito
 ### **Requisitos**
 - Python 3.x
 - Jupyter Notebook
-- Instale as bibliotecas necessárias:
+- Instale as bibliotecas necessárias
   
   ```bash
   
